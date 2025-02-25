@@ -47,3 +47,5 @@ function calculate() {
     document.getElementById('monthly-pct').textContent = monthlyPct.toFixed(2) + '%';
 
     // Update More Maths section
+
+}
