@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🟰 Time Cost Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Time Cost Calculator</h1>
+        
+      <h2 class ="h2-input"> Input your numbers</h2>
+        <div class="input-group">
+            <label for="hourly-salary">Hourly Salary (£)</label>
+            <input type="number" id="hourly-salary" step="0.01" required>
+        </div>
+
+        <div class="input-group">
+            <label for="hours-week">Hours Worked Per Week</label>
+            <input type="number" id="hours-week" required>
+        </div>
+
+        <div class="input-group">
+            <label for="days-week">Days Worked Per Week</label>
+            <input type="number" id="days-week" required>
+        </div>
+
+        <div class="input-group">
+            <label for="item-price">Item Price (£)</label>
+            <input type="number" id="item-price" step="0.01" required>
+        </div>
+
+        <div class="results-section">
+            <div class="result-category">
+                <h2>Time Needed to Afford Item</h2>
+                <div class="result-item">
+                    <span>Hours Needed:</span>
+                    <span id="hours-needed" class="result">N/A</span>
+                </div>
+                <div class="result-item">
+                    <span>Work Days Needed:</span>
+                    <span id="days-needed" class="result">N/A</span>
+                </div>
+                <div class="result-item">
+                    <span>Weeks Needed:</span>
+                    <span id="weeks-needed" class="result">N/A</span>
+                </div>
+                <div class="result-item">
+                    <span>Months Needed:</span>
+                    <span id="months-needed" class="result">N/A</span>
+                </div>
+            </div>
+
+            <div class="result-category">
+                <h2>Price as Percentage of Income</h2>
+                <div class="result-item">
+                    <span>Of Hourly Wage:</span>
+                    <span id="hourly-pct" class="result">N/A</span>
+                </div>
+                <div class="result-item">
+                    <span>Of Daily Wage:</span>
+                    <span id="daily-pct" class="result">N/A</span>
+                </div>
+                <div class="result-item">
+                    <span>Of Weekly Wage:</span>
+                    <span id="weekly-pct" class="result">N/A</span>
+                </div>
+                <div class="result-item">
+                    <span>Of Monthly Wage:</span>
+                    <span id="monthly-pct" class="result">N/A</span>
+                </div>
+            </div>
+
+            <div class="result-category">
+                <h2>More Maths (to be written)</h2>
+                <div class="result-item">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
