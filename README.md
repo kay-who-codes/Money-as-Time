@@ -1,8 +1,8 @@
-# 🟰 Time Cost Calculator
+# 🟰 Money as Time
 
 Calculate how much time you need to work to afford an item based on your hourly wage, weekly work hours, and days worked per week.
 
-[![Time Cost Calculator](Non-App/App%20Image.png)](https://kay-who-codes.github.io/Time-Cost-Calculator/)
+[![Time Cost Calculator](Non-App/App%20Image.png)](https://kay-who-codes.github.io/Money-as-Time/)
 
 ## Features
 
@@ -12,7 +12,7 @@ Calculate how much time you need to work to afford an item based on your hourly 
 
 ## Usage
 
-1. Open the app in a browser - **[Time Cost Calculator](https://kay-who-codes.github.io/Time-Cost-Calculator/)**.
+1. Open the app in a browser - **[Time Cost Calculator](https://kay-who-codes.github.io/Money-as-Time/)**.
 2. Enter your hourly salary, the number of hours you work per week, and the days you work per week.
 3. Input the price of the item you want to purchase.
 4. The app will automatically calculate and display the required work time and income percentages.
